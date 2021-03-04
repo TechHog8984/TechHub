@@ -187,7 +187,6 @@ labeltemplate.TextWrapped = true
         return buttonlibrary
     end
     return sectionlibrary
+    print("loaded TechHog's UI-Library V 2.1")
 end
 return mainfunction()
-
-print("loaded TechHog's UI-Library V 2.1")
