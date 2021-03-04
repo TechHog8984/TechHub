@@ -1,4 +1,7 @@
-local tween = game:GetService("TweenService")
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/TechHubOP/TechHub/main/ui%20lib%20main%20ui', true))()
+
+function mainfunction()
+    local tween = game:GetService("TweenService")
 local gui = Instance.new("ScreenGui")
 local frames = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
@@ -147,11 +150,7 @@ labeltemplate.TextColor3 = Color3.fromRGB(255, 255, 255)
 labeltemplate.TextScaled = true
 labeltemplate.TextSize = 14.000
 labeltemplate.TextWrapped = true
-
---loadstring(game:HttpGet('https://raw.githubusercontent.com/TechHubOP/TechHub/main/ui%20lib%20main%20ui', true))()
-
-
-function mainfunction()
+    
     local sectionlibrary = {}
     function sectionlibrary:CreateSection(sectionName)
     
