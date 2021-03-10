@@ -112,7 +112,7 @@ local sectionlibrary = {}
     end
     repeat wait() until _G.SECTION
         local section = _G.SECTION:Clone()
-        section.Parent = gui.sections
+        section.Parent = _G.SECTION.Parent
         section.Name = sectionName 
         section.Visible = true
         section.top.title.Text = sectionName
